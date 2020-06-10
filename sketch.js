@@ -15,7 +15,7 @@ function setup() {
     engine = Engine.create();
     world = engine.world;
 
-    paper = new Paper(178,631);
+    paper = new Paper(248,287);
 
     ground = new Ground(1800,10);
     
@@ -27,7 +27,7 @@ function setup() {
     dustbin.addImage(dustbinImg);
     dustbin.scale = 0.5;
 
-    slingshot = new Slingshot(paper.body,{x:120,y:500});
+    slingshot = new Slingshot(paper.body,{x:250,y:285});
     
     Engine.run(engine);
   
